@@ -3,27 +3,27 @@ The Online Food Ordering System is designed to connect customers, restaurants, a
 
 ✅Core Features:
 
-User Module: Customer registration, login, profile management.
+1.User Module: Customer registration, login, profile management.
 
-Restaurant Module: Manage restaurant details, menus, and pricing.
+2.Restaurant Module: Manage restaurant details, menus, and pricing.
 
-Order Module: Place new orders, update/cancel orders, track status.
+3.Order Module: Place new orders, update/cancel orders, track status.
 
-Payment Module: Record payment details (cash/online).
+4.Payment Module: Record payment details (cash/online).
 
-Reports & Analytics: Order history, top-selling items, restaurant performance.
+5.Reports & Analytics: Order history, top-selling items, restaurant performance.
 
 
 🔹OOP Concepts in Online Food Ordering System :
 
-Class & Object – Users, Restaurants, MenuItems, Orders are modeled as classes; real entities are objects.
+1.Class & Object – Users, Restaurants, MenuItems, Orders are modeled as classes; real entities are objects.
 
-Encapsulation – User details, menu data, and payment info are kept private with controlled access.
+2.Encapsulation – User details, menu data, and payment info are kept private with controlled access.
 
-Inheritance – Customer, Admin, and DeliveryAgent inherit from a common User class.
+3.Inheritance – Customer, Admin, and DeliveryAgent inherit from a common User class.
 
-Polymorphism – Payment methods override processPayment(); Orders allow adding items in different ways.
+4.Polymorphism – Payment methods override processPayment(); Orders allow adding items in different ways.
 
-Abstraction – Payment is defined as an abstract class; specific types (Cash, Online, Card) provide implementations.
+5.Abstraction – Payment is defined as an abstract class; specific types (Cash, Online, Card) provide implementations.
 
-Composition – Orders contain OrderItems, which cannot exist without the order.
+6.Composition – Orders contain OrderItems, which cannot exist without the order.
