@@ -26,4 +26,4 @@ The Online Food Ordering System is designed to connect customers, restaurants, a
 
 5.Abstraction – Payment is defined as an abstract class; specific types (Cash, Online, Card) provide implementations.
 
-6.Composition – Orders contain OrderItems, which cannot exist without the order.
+
